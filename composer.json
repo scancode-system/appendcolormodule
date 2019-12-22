@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/append-color-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AppendColor\\Providers\\AppendColorServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AppendColor\\": ""
+        }
+    },
+    "type": "laravel-module"
+}
